@@ -44,4 +44,15 @@
 
   * Suppose you saved 1GB of text file in Hadoop Cluster and want to count the number of lines in that file.To solve this problem write a MapReduce program to count the lines [ KEY - Number of lines, VALUES - $number ][ MAP - It runs on Data Nodes having that text file and returns the KEY & VALUE as Number of Lines : 2[or anything]]. Reduce function reads all the output from data nodes and aggregate the value by key name.So finally we got Number of lines :) .Map code is running parallel so execution time is short
   
+  * Because of new technologies we won't use much of MapReduce in old way [Writting JAVA code for MapReduce].So no worries :) 
   
+# YARN
+
+  * Yet Another Resource Negotiator - In old version of Hadoop had only HDFS - Storage, MapReduce - Access Data. But MapReduce itself not enough to solve big data problems. So YARN became the middle layer between HDFS & MapReduce. It provides API access to from HDFS. So other tools like Apache Strom, Apche Spark, Solr can be integrated with Hadoop :) 
+
+# Security
+
+  * HDFS files permissions are like UNIX style [Owner Group Others,(Read,Write,Execute)]
+  * This can be modified by Hadoop Commands - Looks similar to unix commands
+  * Hadoop Cluster uses Kerberos for authentication
+  * Kerberos authentication is faster than SSL & removing user also simple. No need of sending passwords over the network
