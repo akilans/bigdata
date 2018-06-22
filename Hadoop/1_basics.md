@@ -37,4 +37,11 @@
   
 # Configure Hadoop Cluster
 
-  * 
+  * Cloudera, HortonWorks have utillity to install & manage Hadoop Cluster
+  * Hortorn uses Ambari - Hadoop Cluster management using web based UI
+
+# MapReduce
+
+  * Suppose you saved 1GB of text file in Hadoop Cluster and want to count the number of lines in that file.To solve this problem write a MapReduce program to count the lines [ KEY - Number of lines, VALUES - $number ][ MAP - It runs on Data Nodes having that text file and returns the KEY & VALUE as Number of Lines : 2[or anything]]. Reduce function reads all the output from data nodes and aggregate the value by key name.So finally we got Number of lines :) .Map code is running parallel so execution time is short
+  
+  
