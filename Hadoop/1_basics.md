@@ -1,4 +1,5 @@
-# Hadoop Tutorials - https://www.youtube.com/watch?v=KZwb-QTmxks&list=PLkz1SCf5iB4dw3jbRo0SYCk2urRESUA3v 
+# Hadoop Tutorials - 
+   * https://www.youtube.com/watch?v=KZwb-QTmxks&list=PLkz1SCf5iB4dw3jbRo0SYCk2urRESUA3v 
 
 # Basics of Hadoop
 
